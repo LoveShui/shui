@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>横向列表创建</title>
+    <link rel="stylesheet" type="text/css" href="hengxiang.css"/>
+<style>
+#menu{
+    width:500px;
+    margin:10px auto;
+}
+#menu ul{
+    margin:0;
+    padding:0;
+    list-style: none;
+    background: #eee;
+    height: 36px;
+    line-height:36px;
+
+}
+#menu ul li{
+    display: inline-block;
+    padding:0 12px;
+    border-bottom: 1px dashed #ccc;
+}
+
+#menu ul li.last{
+    border-right: 0px;/*取消最后一个列表项的边框*/
+}
+</style>
+</head>
+<body>
+<div id="menu">
+    <ul>
+        <li>
+            <a href="#">菜单1</a>
+        </li>
+        <li>
+            <a href="#">菜单2</a>
+        </li>
+        <li>
+            <a href="#">菜单3</a>
+        </li>
+        <li class="last">
+            <a href="#">菜单4/a>
+        </li>
+    </ul>
+</div>
+</body>
+</html>

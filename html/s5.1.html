@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>对联广告</title>
+</head>
+<style>
+    #center {
+        background:cornsilk;
+        margin: auto;
+        width: 1175px;
+        height: 700px;
+    }
+    
+    a {
+        text-decoration: none;
+        margin-top: 125px;
+        float: right;
+    }
+    
+    #left,
+    #right {
+        position: fixed;
+        top: 40px;
+        width: 120px;
+        height: 170px;
+        padding: 10px;
+        background:yellow;
+    }
+    
+    #left {
+        left: 0;
+    }
+    
+    #right {
+        right: 0;
+    }
+</style>
+
+<body>
+    <div id="main">
+        <div class="box" id="left">
+             <p align=center>广告一</p>
+            <a href="#" onclick="function1()">关闭广告</a>
+        </div>
+
+        <div class="box" id="center">
+            <p align=center>网页内容</p>
+
+
+        </div>
+
+        <div class="box" id="right">
+           <p align=center>广告二</p>
+            <a href="#" onclick="function2()">关闭广告</a>
+        </div>
+    </div>
+    <script type="text/javascript">
+        function function1() {
+            var l = document.getElementById("left")
+            l.style.display = 'none';
+        }
+
+        function function2() {
+            var r = document.getElementById("right")
+            r.style.display = 'none';
+        }
+    </script>
+
+</body>
+
+</html>

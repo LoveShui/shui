@@ -1,0 +1,155 @@
+<!doctype html>
+<html> 
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>个人网站</title> 
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background:darkslategray  left bottom; font-family:"微软雅黑",Arial, Helvetica, sans-serif; color:#454545
+}
+-->
+#top{
+	height:118px;
+	background-image: url(images/top1.jpg);
+	background-repeat: repeat;
+	background-position: left top;
+	text-align:left;
+	padding:0;
+}
+#bottom{
+	height:52px;
+	background-image: url(images/bg3.jpg);
+	background-repeat: repeat;
+	background-position: left top;
+	text-align:left;
+	padding:0;
+}
+</style>
+<link href="../css/1.css" rel="stylesheet" type="text/css">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_nbGroup(event, grpName) { //v6.0
+  var i,img,nbArr,args=MM_nbGroup.arguments;
+  if (event == "init" && args.length > 2) {
+    if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+      img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+      if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+      nbArr[nbArr.length] = img;
+      for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+        if (!img.MM_up) img.MM_up = img.src;
+        img.src = img.MM_dn = args[i+1];
+        nbArr[nbArr.length] = img;
+    } }
+  } else if (event == "over") {
+    document.MM_nbOver = nbArr = new Array();
+    for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = (img.MM_dn && args[i+2]) ? args[i+2] : ((args[i+1])? args[i+1] : img.MM_up);
+      nbArr[nbArr.length] = img;
+    }
+  } else if (event == "out" ) {
+    for (i=0; i < document.MM_nbOver.length; i++) {
+      img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+  } else if (event == "down") {
+    nbArr = document[grpName];
+    if (nbArr)
+      for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+    document[grpName] = nbArr = new Array();
+    for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = img.MM_dn = (args[i+1])? args[i+1] : img.MM_up;
+      nbArr[nbArr.length] = img;
+  } }
+}
+//-->
+</script>
+</head>
+<bgsound src=some.mp3 loop="-1">
+<body onLoad="MM_preloadImages('images/top/top_r2_c1_f3.jpg','images/top/top_r2_c1_f2.jpg','images/top/top_r2_c1_f4.jpg','images/top/top_r2_c3_f3.jpg','images/top/top_r2_c3_f2.jpg','images/top/top_r2_c3_f4.jpg','images/top/top_r2_c5_f3.jpg','images/top/top_r2_c5_f2.jpg','images/top/top_r2_c5_f4.jpg','images/top/top_r2_c7_f3.jpg','images/top/top_r2_c7_f2.jpg','images/top/top_r2_c7_f4.jpg','images/top/top_r2_c9_f3.jpg','images/top/top_r2_c9_f2.jpg','images/top/top_r2_c9_f4.jpg')">
+
+<div id="top">
+  <table width="997" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tr> 
+      <td colspan="19"><img name="top_r1_c1" src="../img/0.jpg" width="997" height="120" border="0" alt=""></td>
+      <td><img src="images/top/spacer.gif" width="1" height="80" border="0" alt=""></td>
+    </tr>
+    <tr> 
+      <td><a href="index.html"><img name="top_r2_c1" src="../img/1.png" width="69" height="38" border="0" alt=""></a></td>
+      <td><img name="top_r2_c2" src="images/top/top_r2_c2.jpg" width="3" height="38" border="0" alt=""></td>
+      <td><a href="jianli.html"><img name="top_r2_c3" src="../img/2.png" width="93" height="38" border="0" alt=""></a></td>
+      <td><img name="top_r2_c4" src="images/top/top_r2_c4.jpg" width="3" height="38" border="0" alt=""></td>
+      <td><a href="xuexiao.html"><img name="top_r2_c5" src="../img/3.png" width="97" height="38" border="0" alt=""></a></td>
+      <td><img name="top_r2_c6" src="images/top/top_r2_c6.jpg" width="4" height="38" border="0" alt=""></td>
+      <td><a href="banji.html"><img name="top_r2_c7" src="../img/4.png" width="104" height="38" border="0" alt=""></a></td>
+      <td><img name="top_r2_c8" src="images/top/top_r2_c8.jpg" width="3" height="38" border="0" alt=""></td>
+      <td><a href="sushe.html"><img name="top_r2_c9" src="../img/5.png" width="109" height="38" border="0" alt=""></a></td>
+      <td><img name="top_r2_c10" src="images/top/top_r2_c10.jpg" width="3" height="38" border="0" alt=""></td>
+      <td><a href="aihao.html"><img name="top_r2_c11" src="../img/6.png" width="103" height="38" border="0" alt=""></a></td>
+      <td><img name="top_r2_c12" src="images/top/top_r2_c12.jpg" width="3" height="38" border="0" alt=""></td>
+      <td><a href="zuoye.html"><img name="top_r2_c13" src="../img/7.png" width="99" height="38" border="0" alt=""></a></td>
+      <td><img name="top_r2_c14" src="images/top/top_r2_c14.jpg" width="4" height="38" border="0" alt=""></td>
+      <td><a href="jiaxiang.html"><img name="top_r2_c15" src="../img/8.png" width="100" height="38" border="0" alt=""></a></td>
+      <td><img name="top_r2_c16" src="images/top/top_r2_c16.jpg" width="4" height="38" border="0" alt=""></td>
+      <td><a href="luyou.html"><img name="top_r2_c17" src="../img/9.png" width="102" height="38" border="0" alt=""></a></td>
+      <td><img name="top_r2_c18" src="images/top/top_r2_c18.jpg" width="4" height="38" border="0" alt=""></td>
+      <td><a href="lixiang.html"><img name="top_r2_c19" src="../img/10.png" width="90" height="38" border="0" alt=""></a></td>
+      <td><img src="images/top/spacer.gif" width="1" height="38" border="0" alt=""></td>
+    </tr>
+  </table>
+</div>
+<table width="997" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#000000">
+  <!--DWLayoutTable-->
+  <tr> 
+    <td width="997" height="900" class="css"><table width="80%" border="0" align="center">
+        <tr class="css"> 
+          <td width="100%" valign="middle"><div align="left"><span class="css2"><font color="#FFFFFF"><img src="../img/02.jpg" width="250" height="800"  align="left" />中文名：郑州工程技术学院<br />
+外文名称：Zhengzhou University of Technology<br>
+办学性质：公办大学<br />
+学校类别：理工<br />
+所属地区：河南省郑州市惠济区<br />
+校训：修德、敏学、笃行、拓新<br />
+院校地址：河南省郑州市惠济区英才街18号（英才校区）、河南省郑州市惠济区金河路66号（金河校区）、河南省郑州市京广南路1号（航海校区）、河南省郑州市金水区相济路一零七国道交叉口南100米路东（龙子湖校区）
+
+<br>
+              <br>
+              郑州工程技术学院（Zhengzhou University of Technology）位于河南省郑州市，是一所河南省属公办全日制本科普通高等学校，是国家建设类技能型紧缺人才培养试点高校。<br />
+                     
+              学院创建于1980年的郑州大学、河南医学院分校；1981年，更名为郑州走读大学；1985年，更名为中州大学；2009年，郑州艺术学校并入学校；2014年，郑州广播电视大学并入学校；2016年3月，升格为郑州工程技术学院。 <br />
+               
+              截至2022年3月，学院共有英才校区、金河校区、航海路校区、龙子湖校区四个校区，占地面积1484.84亩，建筑面积54.11万平方米，教学仪器设备总值2.51亿元，馆藏纸介质图书163万册，电子图书130余万种；有教职工1288人，专任教师818人，在校学生12866人；开设20个二级学院、34个本科专业、31个专科专业。 
+</font><br>
+              </span> </div></td>
+          <td width="48%" colspan="2" class="css"><div align="center">           
+            </div>
+            <div align="center"></div>
+            <div align="center"></div>
+            <div align="center"></div></td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+<div class="css" id="bottom">
+  <div align="center"><font color="#FFFFFF"><br>
+    Copy allright @2022</font></div>
+</div>
+</body>
+</html>
